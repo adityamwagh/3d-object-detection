@@ -11,7 +11,7 @@ Download the data folder and the weights folder from the link mentioned below - 
 
 [Dataset and Weights](https://drive.google.com/drive/folders/1Msf2P5aSV1Xha-DPwiJ9K24v5gAdqxpG)
 
-- Create a directory named data inside the cloned repository and copy the dataset. Your directory strucutre should look as mentioned below - </br>
+- Create a directory named data inside the cloned repository and copy the dataset. Your directory strucutre should look as mentioned - </br>
 ```plain
 
 └── data
