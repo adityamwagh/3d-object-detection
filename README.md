@@ -6,11 +6,10 @@
 ## Download Dataset & Weights
 Download the data folder and the weights folder from the link mentioned below - </br>
 
-- Dataset - Kitti.zip </br>
-- weights - checkpoints </br>
-
 [Dataset and Weights](https://drive.google.com/drive/folders/1Msf2P5aSV1Xha-DPwiJ9K24v5gAdqxpG)
 
+- Dataset - Kitti.zip </br>
+- weights - checkpoints </br>
 - Create a directory named data inside the cloned repository and copy the dataset. Your directory strucutre should look as mentioned - </br>
 ```plain
 
