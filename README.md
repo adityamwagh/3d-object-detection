@@ -35,7 +35,8 @@ cd fast3d
 Download the data folder and the weights folder (Must use an NYU Affiliated Email): [Dataset and Weights](https://drive.google.com/drive/folders/1Msf2P5aSV1Xha-DPwiJ9K24v5gAdqxpG). The dataset has been proprocessed to generate the required file format.
 
 ### Dataset
-- Unzip the `kitti.zip` folder into data. The folder structure should look like this:
+- Make a folder named `data` in the root of `fast3d`.
+- Unzip the `kitti.zip` folder into `data`. The folder structure should look like this:
 
 ```
 
