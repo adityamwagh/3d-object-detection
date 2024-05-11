@@ -1,4 +1,4 @@
-# Fast 3D Object Detection in the Wild
+# Benchmarking of PointNet++, VoxelNet & PointPillars on KITTI Dataset
 
 ## Setup environment
 
