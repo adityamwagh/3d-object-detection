@@ -5,8 +5,8 @@
 Make sure you have CUDA version 11.3 installed locally and in the virtual environment. Also make sure you are using `python 3.8`, or else there would be dependency issues.
 
 ```
-conda create -n fast3d python=3.8 pytorch cudatoolkit=11.3 torchvision -c pytorch -y
-conda activate fast3d
+conda create -n 3d-object-detection python=3.8 pytorch cudatoolkit=11.3 torchvision -c pytorch -y
+conda activate 3d-object-detection
 pip3 install openmim
 mim install mmcv-full
 mim install mmdet
@@ -27,15 +27,15 @@ rm -rf mmdetection3d
 
 Once the package installation is succesful, clone the project repository.
 ```
-git clone https://github.com/adityamwagh/fast3d.git
-cd fast3d
+git clone https://github.com/adityamwagh/3d-object-detection.git
+cd 3d-object-detection
 ```
 
 ## Download Dataset & Weights
 Download the data folder and the weights folder (Must use an NYU Affiliated Email): [Dataset and Weights](https://drive.google.com/drive/folders/1Msf2P5aSV1Xha-DPwiJ9K24v5gAdqxpG). The dataset has been proprocessed to generate the required file format.
 
 ### Dataset
-- Make a folder named `data` in the root of `fast3d`.
+- Make a folder named `data` in the root of `3d-object-detection`.
 - Unzip the `kitti.zip` folder into `data`. The folder structure should look like this:
 
 ```
@@ -64,11 +64,11 @@ Download the data folder and the weights folder (Must use an NYU Affiliated Emai
 ### Weights
 - Download the checkpoints folder from Google Drive.
 - Unzip checkpoints.zip
-- Copy the `checkpoints` folder into the root of `fast3d` folder.
+- Copy the `checkpoints` folder into the root of `3d-object-detection` folder.
 
 ## Evaluation
 
-Run the `test.py` script in the `tools` folder in `fast3d`.
+Run the `test.py` script in the `tools` folder in `3d-object-detection`.
 
 ```bash
 python tools/test.py \ 
